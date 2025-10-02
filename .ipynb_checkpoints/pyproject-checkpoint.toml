@@ -1,0 +1,22 @@
+
+---
+
+# `pyproject.toml`
+```toml
+[project]
+name = "signals-midterm"
+version = "0.1.0"
+description = "Mid-term project for Signals and Systems"
+authors = [
+  { name = "Student", email = "student@example.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.dependencies]
+numpy = ">=1.21"
+matplotlib = ">=3.4"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
